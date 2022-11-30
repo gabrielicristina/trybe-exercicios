@@ -13,3 +13,7 @@ console.log(info);
 for(let properties in info) {
     console.log(properties);
 }
+
+for(let properties in info) {
+    console.log(info[properties]);
+}
